@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-header{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card-header"> <h1>Items in cart</h1></div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="All products/pink dress.jpg" alt="Product Image" class="img-fluid">
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Product Name</h4>
+                        <p>Price: $10.99</p>
+                        <button class="btn btn-danger">
+                            <i class="fas fa-trash"></i> 
+                        </button>
+                    </div>
+                    <div class="col-md-4">
+                        <form>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <button class="btn btn-primary btn-outline-light" type="button">
+                                        <i class="fas fa-minus"></i>
+                                    </button>
+                                </div>
+                                <input type="text" class="form-control text-center" value="1">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary btn-outline-light" type="button">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Summary</h1>
+                    </div>
+                    <div class="card-body">
+                        <p>Product Price (Total): $50.99</p>
+                        <p>Shipping: $5.00</p>
+                        <hr>
+                        <p>Total Cost: $55.99</p>
+                        <button class="btn btn-primary col-md-4 btn-block">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

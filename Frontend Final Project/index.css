@@ -1,0 +1,44 @@
+
+/* Add custom styles here */
+.navbar-custom {
+    background-color: #333;
+}
+.navbar-custom .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 20px; /* Space between nav items */
+}
+.navbar-custom .navbar-nav .nav-link:last-child {
+    margin-right: 0; /* Remove space from the last item */
+}
+.navbar-custom .search-bar {
+    display: flex;
+    align-items: center;
+}
+.navbar-custom .search-input {
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.navbar-custom .search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.navbar-custom .login-button, .navbar-custom .cart-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
